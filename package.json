@@ -1,0 +1,18 @@
+{
+    "name": "space-x-graphql-app",
+    "version": "1.0.0",
+    "description": "SpaceX launch missions",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "author": "Maciej Zając",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "express": "^4.17.1",
+        "express-graphql": "^0.9.0",
+        "graphql": "^14.4.2"
+    }
+}
